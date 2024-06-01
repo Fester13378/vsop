@@ -15,8 +15,17 @@
     border: 2px solid #BFE2FF;
     overflow: hidden;
     z-index: 1;
+    text-decoration: none;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: .5s;
+    transform: scale(1);
 }
-.exit-btn:hover,
+.exit-btn:hover{
+    transition-property: transform;
+    transition-duration: .5s;
+    transform: scale(1.1);
+}
 .exit-btn:active,
 .exit-btn:focus {
     color: #FFF;
