@@ -40,10 +40,19 @@ body {
     font-family: inherit;
     font-size: 16px;
     color: #fff;
+    text-decoration: none;
+    text-align:center;
+    transition-property: transform;
+    transition-duration: .5s;
+    transform: scale(1);
   }
   
   .btn:hover {
     background-color: #14a20a;
+    transition-property: transform;
+    transition-duration: .5s;
+    transform: scale(1.1);
+
   }
 
   .dnev-btn {
@@ -63,8 +72,17 @@ body {
     border: 2px solid #BFE2FF;
     overflow: hidden;
     z-index: 1;
+    text-decoration: none;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: .5s;
+    transform: scale(1);
 }
-.dnev-btn:hover,
+.dnev-btn:hover{
+  transition-property: transform;
+    transition-duration: .5s;
+    transform: scale(1.1);
+}
 .dnev-btn:active,
 .dnev-btn:focus {
     color: #FFF;
@@ -104,8 +122,17 @@ body {
     border: 2px solid #BFE2FF;
     overflow: hidden;
     z-index: 1;
+    text-decoration: none;
+    text-align: center;
+    transition-property: transform;
+    transition-duration: .5s;
+    transform: scale(1);
 }
-.glav-btn:hover,
+.glav-btn:hover{
+  transition-property: transform;
+    transition-duration: .5s;
+    transform: scale(1.1);
+}
 .glav-btn:active,
 .glav-btn:focus {
     color: #FFF;
